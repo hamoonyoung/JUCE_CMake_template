@@ -1,0 +1,12 @@
+# JUCE Framework
+JUCE/
+
+# Build directories
+cmake-build-*/
+build/
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
