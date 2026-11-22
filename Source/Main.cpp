@@ -1,5 +1,4 @@
-#include <juce_gui_extra/juce_gui_extra.h>
-#include <juce_audio_utils/juce_audio_utils.h>
+#include <JuceHeader.h>
 #include "MainComponent.h"
 
 class JUCE_Application : public juce::JUCEApplication
