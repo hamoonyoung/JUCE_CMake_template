@@ -5,6 +5,7 @@ This is a CMake template designed to help you get started with JUCE projects qui
 # Standalone Application & Plugin
 
 **main** branch: Configured for building a standalone application.
+
 **plugin** branch: Configured for building audio plugins. You can also build a standalone application from this branch.
 
 Since this template does not include the JUCE framework itself, you will need to download it separately. I recommend keeping a copy of JUCE inside each project directory. This way, you won't have to worry about framework paths when switching development environments or platforms.
