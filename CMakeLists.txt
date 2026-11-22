@@ -60,6 +60,11 @@ target_include_directories(${app_name}
         "${CMAKE_CURRENT_SOURCE_DIR}/Source"
 )
 
+target_compile_definitions(Ode
+    PUBLIC
+        JUCE_VST3_CAN_REPLACE_VST2=0
+)
+
 # Link JUCE modules
 target_link_libraries(${app_name}
         PRIVATE
