@@ -6,8 +6,17 @@ A CMake template designed to help you quickly get started with JUCE projects.
 
 This repository provides two branches for different project configurations:
 
-- **`main` branch:** Configured to build a standalone application.
+- **`main` branch:** Configured to build a standalone application.\
+
+```bash
+git clone https://github.com/hamoonyoung/JUCE_CMake_template.git
+```
+  
 - **`plugin` branch:** Configured to build audio plugins (VST3, AU, etc.). You can also build a standalone application from this branch.
+
+```bash
+git clone -b plugin --single-branch https://github.com/hamoonyoung/JUCE_CMake_template.git
+```
 
 ## How to Use
 
