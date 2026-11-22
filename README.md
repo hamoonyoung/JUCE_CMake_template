@@ -1,6 +1,6 @@
 # JUCE CMake Template
 
-A CMake template designed to help you quickly get started with JUCE projects.
+A clean, no-frills CMake template to help you quickly get started with JUCE projects.
 
 ## Standalone Application & Plugin
 
