@@ -6,7 +6,7 @@ A clean, no-frills CMake template to help you quickly get started with JUCE proj
 
 This repository provides two branches for different project configurations:
 
-- **`main` branch:** Configured to build a standalone application.\
+- **`main` branch:** Configured to build a standalone application.
 
 ```bash
 git clone https://github.com/hamoonyoung/JUCE_CMake_template.git
