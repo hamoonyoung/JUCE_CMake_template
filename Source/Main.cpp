@@ -1,14 +1,13 @@
-
 #include <juce_gui_extra/juce_gui_extra.h>
 #include <juce_audio_utils/juce_audio_utils.h>
 #include "MainComponent.h"
 
-class JUCE_templateApplication : public juce::JUCEApplication
+class JUCE_Application : public juce::JUCEApplication
 {
 public:
     const juce::String getApplicationName() override
     {
-        return "JUCE Test";
+        return "JUCE Application Name";
     }
 
     const juce::String getApplicationVersion() override
@@ -50,4 +49,4 @@ private:
     std::unique_ptr<MainWindow> mainWindow;
 };
 
-START_JUCE_APPLICATION(JUCE_templateApplication)
+START_JUCE_APPLICATION(JUCE_Application)

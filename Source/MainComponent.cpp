@@ -2,7 +2,29 @@
 
 MainComponent::MainComponent()
 {
-    setSize(600, 400);
+
+}
+
+MainComponent::~MainComponent()
+{
+    shutdownAudio();
+}
+
+void MainComponent::prepareToPlay (int samplesPerBlockExpected,
+                                          double sampleRate)
+{
+
+}
+
+void MainComponent::getNextAudioBlock (
+    const juce::AudioSourceChannelInfo& bufferToFill)
+{
+
+}
+
+void MainComponent::releaseResources()
+{
+
 }
 
 void MainComponent::paint(juce::Graphics& g)
@@ -12,11 +34,12 @@ void MainComponent::paint(juce::Graphics& g)
     g.setColour(juce::Colours::white);
     g.setFont(30.0f);
 
-    g.drawText("Hello JUCE!",
+    g.drawText("Hello JUCE!!",
                getLocalBounds(),
                juce::Justification::centred);
 }
 
 void MainComponent::resized()
 {
+
 }
