@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.22)
 
-project(JUCE_template VERSION 1.0)
-
 set(app_name "APP_NAME")
 set(product_name "PRODUCT_NAME")
+
+project(${app_name} VERSION 1.0)
+
 # Import JUCE framework
 add_subdirectory(JUCE)
 
